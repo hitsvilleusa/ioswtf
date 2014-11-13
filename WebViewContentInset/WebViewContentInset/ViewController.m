@@ -26,6 +26,8 @@
     // is set to YES, things work as expected on all devices.
     //
     // Question 1. Why don't these lines work on iPhone 5?
+    // Work Around 1. If I make it a WKWebView instead of a UIWebView, it works
+    //                as expected.
     // Question 2. How is the automaticallyAdjustsScrollViewInsets implemented?
     self.automaticallyAdjustsScrollViewInsets = NO;
     self.webView.scrollView.contentInset = UIEdgeInsetsMake(64, 0, 0, 0);
