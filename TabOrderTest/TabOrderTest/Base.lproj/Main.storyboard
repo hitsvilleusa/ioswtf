@@ -127,6 +127,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="columnOne" destination="ywG-7Y-7qV" id="1AJ-fm-yT7"/>
+                        <outlet property="columnTwo" destination="ZMS-65-ETh" id="XVC-gE-6pR"/>
                         <outlet property="themEmail" destination="e8J-yN-dXv" id="wN2-gQ-70s"/>
                         <outlet property="themName" destination="rBB-ha-vqO" id="a4q-5J-Yjs"/>
                         <outlet property="youEmail" destination="Ca4-Ga-NVF" id="eBl-pB-u3j"/>
